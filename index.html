@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bank form sample</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+	<header class="text-center text-white py-4 bg-dark mb-3">
+		<h2>Bank Form Sample With Bootstrap</h2>
+	</header>
+	
+<!-- card type area -->
+<div class="card-type">
+	<div class="pr-container primary-heading">
+		<h2>CARD TYPE</h2>
+	</div>
+
+	<div class="pr-container">
+		<!-- visa card area -->
+		<form action="visa-form" method="" class="visa-form">
+			<div class="row align-items-center">
+
+				<div class="col-12 col-sm-2 col-md-12 col-lg-2">
+					<h4 class="bold-title">VISA Card</h4>
+				</div>
+
+				<div class="col-12 col-sm-10 col-md-12 col-lg-10">
+					<div class="row">
+
+						<div class="col-6 col-sm-4 col-md-3 col-lg-2 form-info mb-chbox-wid">
+							<label for="v-p-dual"><input type="checkbox" name="v-p-dual" class="v-ch-box" id="v-p-dual" required> Platinium Dual</label>
+						</div>
+
+						<div class="col-6 col-sm-4 col-md-3 col-lg-2 form-info mb-chbox-wid">
+							<label for="v-g-dual"><input type="checkbox" name="v-g-dual" class="v-ch-box" id="v-g-dual" required> Gold Dual</label>
+						</div>
+
+						<div class="col-6 col-sm-4 col-md-3 col-lg-2 form-info mb-chbox-wid">
+							<label for="v-c-dual"><input type="checkbox" name="v-c-dual" class="v-ch-box" id="v-c-dual" required> Classic Dual</label>
+						</div>
+
+						<div class="col-6 col-sm-4 col-md-3 col-lg-2 form-info mb-chbox-wid">
+							<label for="v-p-local"><input type="checkbox" name="v-p-local" class="v-ch-box" id="v-p-local" required> Platinium Local</label>
+						</div>
+
+						<div class="col-6 col-sm-4 col-md-3 col-lg-2 form-info mb-chbox-wid">
+							<label for="v-g-local"><input type="checkbox" name="v-g-local" class="v-ch-box" id="v-g-local" required> Gold Local</label>
+						</div>
+
+						<div class="col-6 col-sm-4 col-md-3 col-lg-2 form-info mb-chbox-wid">
+							<label for="v-c-local"><input type="checkbox" name="v-c-local" class="v-ch-box" id="v-c-local" required> Classic Local</label>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</form>
+
+		<hr class="d-xl-none">
+
+		<!-- master card area -->
+		<form action="master-form" method="" class="master-form">
+			<div class="row align-items-center">
+
+				<div class="col-12 col-sm-2 col-md-12 col-lg-2">
+					<h4 class="bold-title">Master Card</h4>
+				</div>
+
+				<div class="col-12 col-sm-10 col-md-12 col-lg-10">
+					<div class="row">
+
+						<div class="col-6 col-sm-4 col-md-3 col-lg-2 form-info mb-chbox-wid-for-master">
+							<label for="m-w-dual"><input type="checkbox" name="m-w-dual" class="m-ch-box" id="m-w-dual" required> World Dual</label>
+						</div>
+
+						<div class="col-6 col-sm-4 col-md-3 col-lg-2 form-info mb-chbox-wid-for-master">
+							<label for="m-p-dual"><input type="checkbox" name="m-p-dual" class="m-ch-box" id="m-p-dual" required> Platinum Dual</label>
+						</div>
+
+						<div class="col-6 col-sm-4 col-md-3 col-lg-2 form-info mb-chbox-wid-for-master">
+							<label for="m-t-dual"><input type="checkbox" name="m-t-dual" class="m-ch-box" id="m-t-dual" required> Titanium Dual</label>
+						</div>
+
+						<div class="col-6 col-sm-4 col-md-3 col-lg-2 form-info mb-chbox-wid-for-master">
+							<label for="m-g-dual"><input type="checkbox" name="m-g-dual" class="m-ch-box" id="m-g-dual" required> Gold Dual</label>
+						</div>
+
+						<div class="col-6 col-sm-4 col-md-3 col-lg-2 form-info mb-chbox-wid-for-master">
+							<label for="m-s-dual"><input type="checkbox" name="m-s-dual" class="m-ch-box" id="m-s-dual" required> Standard Dual</label>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</form>
+	</div>
+</div>
+
+ <!-- personal information area -->
+ <div class="per-info">
+	<div class="pr-container primary-heading">
+		<h2>PERSONAL INFORMATION</h2>
+	</div>
+
+	<div class="pr-container">
+		
+		<form action="personal-info-form" method="" class="personal-info-form">
+			<!-- user title -->
+			<div class="row align-items-center">
+				<div class="col-12 col-sm-2 col-md-2 col-lg-2">
+					<h4 class="bold-title">Title</h4>
+				</div>
+
+				<div class="col-12 col-sm-10 col-md-10 col-lg-10">
+					<div class="row align-items-center">
+
+						<div class="col-6 col-sm-3 col-md-3 col-lg-2 form-info">
+							<label for="u-t-mr"><input type="checkbox" name="u-t-mr" class="u-t-ch-box" id="u-t-mr"> Mr.</label>
+						</div>
+
+						<div class="col-6 col-sm-3 col-md-3 col-lg-2 form-info">
+							<label for="u-t-mrs"><input type="checkbox" name="u-t-mrs" class="u-t-ch-box" id="u-t-mrs"> Mrs.</label>
+						</div>
+
+						<div class="col-6 col-sm-3 col-md-3 col-lg-2 form-info">
+							<label for="u-t-ms"><input type="checkbox" name="u-t-ms" class="u-t-ch-box" id="u-t-ms"> Ms.</label>
+						</div>
+
+						<div class="col-6 col-sm-3 col-md-3 col-lg-2 form-info">
+							<label for="u-t-others"><input type="checkbox" name="u-t-others" class="u-t-ch-box" id="u-t-others"> Others.</label>
+						</div>
+
+						<div class="col-12 col-lg-4 form-info">
+							<input type="text" name="other-title" class="other-title" id="" placeholder="Type Other Title">
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- end user title -->
+
+			<!-- name area -->
+			<div class="row align-items-center">
+				<div class="col-md-2 col-lg-2">
+					<h4 class="bold-title">Full Name</h4><span>[at in NID/Passport]</span>
+				</div>
+
+				<div class="col-md-10 col-lg-10 form-info">
+					<input type="text" name="u-full-n" class="u-full-n common-input" id="u-full-n" required>
+				</div>
+			</div>
+
+			<!-- card name and gender -->
+			<div class="row align-items-center">
+				<div class="col-12">
+					<p class="mb-0">Name to appear on card (maximum 19 charecters, leave a blank space between eatch name)</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-none col-xl-2"></div>
+
+				<div class="col-md-8 col-lg-8 col-xl-7 form-info">
+					<input type="text" name="card-name" class="card-name common-input" id="card-name" maxlength="22" required>
+				</div>
+
+				<div class="col-md-12 col-lg-4 col-xl-3 gender d-flex align-items-center justify-content-between">
+					<h4 class="bold-title">Gender</h4>
+					<div class="form-info">
+						<label for="g-male"><input type="checkbox" name="male" class="g-ch-box" id="g-male"> Male</label>
+						<label for="g-female"><input type="checkbox" name="female" class="g-ch-box" id="g-female"> Female</label>
+					</div>
+				</div>
+			</div>
+			<!-- card name and gender end-->
+
+			<!-- birth and material -->
+			<div class="row align-items-center">
+				<div class="col-sm-3 col-md-4 col-lg-2">
+					<h4 class="bold-title">Date of Birth</h4>
+				</div>
+
+				<div class="col-sm-9 col-md-8 col-lg-3 form-info">
+					<input type="date" name="b-date" class="b-date common-input in-bg-none" id="b-date">
+				</div>
+
+				<div class="col-md-8 col-lg-5 form-info material d-flex justify-content-between">
+					<h4 class="bold-title">Material Status</h4>
+					<label for="married"><input type="checkbox" name="married" class="marry-ch-box" id="married"> Married</label>
+					<label for="single"><input type="checkbox" name="single" class="marry-ch-box" id="single"> Single</label>
+					<label for="marry-other"><input type="checkbox" name="Other" class="marry-ch-box" id="marry-other"> Other</label>
+				</div>
+
+				<div class="col-md-4 col-lg-2 form-info">
+					<input type="text" name="m-other-text" class="m-other-text other-title" id="m-other-text" placeholder="Other Title">
+				</div>
+
+			</div>
+
+			<!-- father name area -->
+			<div class="row align-items-center">
+				<div class="col-md-2 col-lg-2">
+					<h4 class="bold-title">Father's Name</h4>
+				</div>
+
+				<div class="col-md-10 col-lg-10 form-info">
+					<input type="text" name="u-fa-n" class="u-fa-n common-input" id="u-fa-n" required>
+				</div>
+			</div>
+
+			<!-- mother name area -->
+			<div class="row align-items-center">
+				<div class="col-md-2 col-lg-2">
+					<h4 class="bold-title">Mother's Name</h4>
+				</div>
+
+				<div class="col-md-10 col-lg-10 form-info">
+					<input type="text" name="u-ma-n" class="u-ma-n common-input" id="u-ma-n" required>
+				</div>
+			</div>
+
+			<!-- nationality and religion -->
+			<div class="row align-items-center">
+				<div class="col-md-2 col-lg-2">
+					<h4 class="bold-title">Nationality</h4>
+				</div>
+
+				<div class="col-md-10 col-lg-5 form-info">
+					<input type="text" name="u-nation" class="u-nation common-input" id="u-nation" required>
+				</div>
+
+				<div class="col-sm-3 col-md-2 col-lg-1">
+					<h4 class="bold-title">Religion</h4>
+				</div>
+
+				<div class="col-sm-9 col-md-10 col-lg-4 form-info">
+					<input type="text" name="u-rel" class="u-rel common-input" id="u-rel" required>
+				</div>
+			</div>
+
+			<!-- passport no and issue date -->
+			<div class="row align-items-center">
+				<div class="col-md-4 col-lg-3">
+					<h4 class="bold-title">Passport No.</h4><span>[for international card only]</span>
+				</div>
+
+				<div class="col-md-8 col-lg-4 form-info">
+					<input type="number" name="u-passport-no" class="u-passport-no common-input" id="u-passport-no" required>
+				</div>
+
+				<div class="col-sm-4 col-md-4 col-lg-2">
+					<h4 class="bold-title">Passport issue date</h4>
+				</div>
+
+				<div class="col-sm-8 col-md-8 col-lg-3 form-info">
+					<input type="date" name="u-p-issue-d" class="u-p-issue-d common-input in-bg-none" id="u-p-issue-d">
+				</div>
+			</div>
+
+			<!-- passport expairy and district birth -->
+			<div class="row align-items-center">
+				<div class="col-sm-4 col-md-4 col-lg-2">
+					<h4 class="bold-title">Passport expiary date</h4>
+				</div>
+
+				<div class="col-sm-8 col-md-8 col-lg-4 form-info">
+					<input type="date" name="u-p-exp-d" class="u-p-exp-d common-input in-bg-none" id="u-p-exp-d">
+				</div>
+
+				<div class="col-none col-lg-1"></div>
+
+				<div class="col-sm-4 col-md-4 col-lg-2 d-flex align-items-center">
+					<span class="bl-square"></span><h4 class="bold-title">District of birth</h4>
+				</div>
+
+				<div class="col-sm-8 col-md-8 col-lg-3 form-info">
+					<input type="text" name="db-name" class="db-name common-input" id="db-name" required>
+				</div>
+			</div>
+
+			<!-- passport place and previous passport -->
+			<div class="row align-items-center">
+				<div class="col-sm-4 col-md-4 col-lg-2">
+					<h4 class="bold-title">Passport issue place</h4>
+				</div>
+
+				<div class="col-sm-8 col-md-8 col-lg-4 form-info">
+					<input type="text" name="p-i-place" class="p-i-place common-input" id="p-i-place" required>
+				</div>
+
+				<div class="col-none col-lg-1"></div>
+
+				<div class="col-sm-4 col-md-4 col-lg-2">
+					<h4 class="bold-title">Previous passport No. (if any)</h4>
+				</div>
+
+				<div class="col-sm-8 col-md-8 col-lg-3 form-info">
+					<input type="number" name="prv-p-no" class="prv-p-no common-input" id="prv-p-no">
+				</div>
+			</div>
+
+			<!-- tin and nid no -->
+			<div class="row align-items-center">
+				<div class="col-sm-4 col-md-4 col-lg-2">
+					<h4 class="bold-title">TIN</h4>
+				</div>
+
+				<div class="col-sm-8 col-md-8 col-lg-4 form-info">
+					<input type="number" name="tin" class="tin common-input" id="tin">
+				</div>
+
+				<!-- <div class="col-none col-lg-1"></div> -->
+
+				<div class="col-sm-4 col-md-4 col-lg-1">
+					<h4 class="bold-title">NID</h4>
+				</div>
+
+				<div class="col-sm-8 col-md-8 col-lg-5 form-info">
+					<input type="number" name="nid" class="nid common-input" id="nid" required>
+				</div>
+			</div>
+
+			<!-- educational qualification -->
+			<div class="row align-items-center">
+
+				<div class="col-lg-2 col-xl-3">
+					<h4 class="bold-title">Last educational qualification</h4>
+				</div>
+
+				<!-- edu quali sm to upper device -->
+				<div class="col-lg-8 col-xl-7 block-check d-flex justify-content-between form-info">
+
+					<label for="p-gradt"><input type="checkbox" name="p-gradt" class="edu-ch-box" id="p-gradt"> Post Graduate</label>
+
+					<label for="gradt"><input type="checkbox" name="gradt" class="edu-ch-box" id="gradt">Graduate</label>
+
+					<label for="hsc"><input type="checkbox" name="hsc" class="edu-ch-box" id="hsc"> HSC/Level</label>
+
+					<label for="ssc"><input type="checkbox" name="ssc" class="edu-ch-box" id="ssc"> SSC/Level</label>
+
+					<label  for="edu-other"><input type="checkbox" name="edu-other" class="edu-ch-box" id="edu-other"> Other</label>
+
+				</div>
+
+				<div class="col-lg-2">
+					<input type="text" name="other-title" class="other-title" id="" placeholder="Other Qualification">
+				</div>
+
+			</div>
+
+		</form>
+	</div>
+ </div>
+
+
+	<!-- professional details -->
+	<div class="prof-detail mt-3">
+	<div class="pr-container primary-heading">
+		<h2>Professional Details</h2>
+	</div>
+
+	<div class="pr-container">
+		<form action="" class="prof-form">
+			<!-- user professional input -->
+			<div class="row align-items-center">
+
+				<div class="col-lg-2 col-xl-2">
+					<h4 class="bold-title">Job Status</h4>
+				</div>
+
+				<div class="col-lg-8 col-xl-7 block-check d-flex justify-content-between form-info">
+
+					<label for="s_per"><input type="checkbox" name="s_per" class="prof-ch-box" id="s_per"> Salaried person</label>
+
+					<label for="self_em"><input type="checkbox" name="self_em" class="prof-ch-box" id="self_em"> Self Employed</label>
+
+					<label for="busines"><input type="checkbox" name="busines" class="prof-ch-box" id="busines"> Businessman</label>
+
+					<label  for="prof-other"><input type="checkbox" name="prof-other" class="prof-ch-box" id="prof-other"> Other</label>
+
+				</div>
+
+				<div class="col-lg-2 col-xl-3">
+					<input type="text" name="other-title" class="other-title" id="" placeholder="Type Other Profession">
+				</div>
+
+			</div>
+
+			<!-- prof description and lorem text -->
+			<div class="row align-items-center">
+				<div class="col-sm-4 col-md-4 col-lg-2 mb-top">
+					<h4 class="bold-title">Description</h4>
+				</div>
+
+				<div class="col-sm-8 col-md-8 col-lg-5 form-info">
+					<input type="text" name="prof_desc" class="in-bg-none type-input common-input" id="prof_desc">
+				</div>
+
+				<!-- lorem text area -->
+
+				<div class="col-sm-4 col-md-4 col-lg-1">
+					<h4 class="bold-title">Lipsumtxt</h4>
+				</div>
+
+				<div class="col-sm-8 col-md-8 col-lg-4 form-info">
+					<input type="text" name="lipsum" class="common-input" id="lipsum">
+				</div>
+			</div>
+
+			<!-- prof designation and establish year -->
+			<div class="row align-items-center">
+				<div class="col-sm-4 col-md-4 col-lg-2">
+					<h4 class="bold-title">Designation</h4>
+				</div>
+
+				<div class="col-sm-8 col-md-8 col-lg-5 form-info">
+					<input type="text" name="prof_desig" class="in-bg-none type-input common-input" id="prof_desig">
+				</div>
+
+				<!-- lorem text area -->
+
+				<div class="col-sm-4 col-md-4 col-lg-2">
+					<h4 class="bold-title">Establishment Year</h4>
+				</div>
+
+				<div class="col-sm-8 col-md-8 col-lg-3 form-info">
+					<input type="date" name="st_date" class="in-bg-none common-input" id="st_date">
+				</div>
+			</div>
+
+
+		</form>
+	</div>
+	</div>
+
+
+
+
+	<!-- contact info details -->
+	<div class="prof-detail mt-3">
+	<div class="pr-container primary-heading">
+		<h2>Contact Information</h2>
+	</div>
+
+	<div class="pr-container">
+		<form action="" class="prof-form">
+
+			<!-- present address area -->
+			<div class="row align-items-center">
+				<div class="col-sm-3 col-md-3 col-lg-2">
+					<h4 class="bold-title">Present residence address</h4>
+				</div>
+
+				<div class="col-sm-9 col-md-9 col-lg-10 form-info">
+					<input type="text" name="u_p_addr" class="u_p_addr in-bg-none type-input common-input" id="u_p_addr" required>
+				</div>
+			</div>
+
+			<!-- police station and city, postal code -->
+			<div class="row align-items-center">
+				<div class="col-md-3 col-lg-2">
+					<h4 class="bold-title">Area / Police station</h4>
+				</div>
+
+				<div class="col-md-3 col-lg-3 form-info">
+					<input type="text" name="u_p_sta" class="u_p_sta common-input" id="u_p_sta">
+				</div>
+
+				<div class="col-md-3 col-lg-2">
+					<h4 class="bold-title">District / city</h4>
+				</div>
+
+				<div class="col-md-3 col-lg-2 form-info">
+					<input type="text" name="u_dis_city" class="u_dis_city common-input" id="u_dis_city" required>
+				</div>
+
+				<div class="col-md-12 col-lg-3 d-flex common-mb-block justify-content-between align-items-center form-info">
+					<label class="postal bold-title" for="postal-code">Postal Code </label><input type="number" name="u_postal" class="u_postal common-input" id="postal-code" required>
+				</div>
+			</div>
+
+			<!-- present residencial details -->
+			<div class="row align-items-center">
+
+				<div class="col-lg-2 col-xl-2">
+					<h4 class="bold-title">Present residencial details</h4>
+				</div>
+
+				<div class="col-lg-8 col-xl-7 block-check d-flex justify-content-between form-info">
+
+					<label for="r_own"><input type="checkbox" name="r_own" class="res-ch-box" id="r_own"> Own</label>
+
+					<label for="partial"><input type="checkbox" name="partial" class="res-ch-box" id="partial"> Partial</label>
+
+					<label for="rented"><input type="checkbox" name="rented" class="res-ch-box" id="rented"> Rented</label>
+
+					<label  for="provided"><input type="checkbox" name="provided" class="res-ch-box" id="provided"> Provided by employer</label>
+
+				</div>
+
+				<div class="col-lg-2 col-xl-3 form-info d-flex common-mb-block justify-content-between align-items-center">
+					<label class="mx-3 stay_length bold-title" for="res_dur">Length of stay</label>
+					<input type="date" name="res_date" class="in-bg-none in_stay_length common-input" id="res_date">
+				</div>
+
+			</div>
+
+
+			<!-- parmanent address area -->
+			<div class="row align-items-center">
+				<div class="col-md-2 col-lg-2">
+					<h4 class="bold-title">Parmanent address</h4>
+				</div>
+
+				<div class="col-md-10 col-lg-10 form-info">
+					<input type="text" name="u_par_addr" class="u_par_addr type-input in-bg-none common-input" id="u_par_addr" required>
+				</div>
+			</div>
+
+			<!-- police station and city, postal code -->
+			<div class="row align-items-center">
+				<div class="col-md-3 col-lg-2">
+					<h4 class="bold-title">Area / Police station</h4>
+				</div>
+
+				<div class="col-md-3 col-lg-3 form-info">
+					<input type="text" name="u_par_sta" class="u_par_sta common-input" id="u_par_sta">
+				</div>
+
+				<div class="col-md-3 col-lg-2">
+					<h4 class="bold-title">District / city</h4>
+				</div>
+
+				<div class="col-md-3 col-lg-2 form-info">
+					<input type="text" name="u_par_dis_city" class="u_par_dis_city common-input" id="u_dispar__city" required>
+				</div>
+
+				<div class="col-md-12 col-lg-3 d-flex common-mb-block justify-content-between align-items-center form-info">
+					<label class="postal bold-title" for="postal-code">Postal Code </label><input type="number" name="u_postal" class="u_postal common-input" id="par_postal-code" required>
+				</div>
+			</div>
+
+
+			<!-- office address area -->
+			<div class="row align-items-center">
+				<div class="col-md-2 col-lg-2">
+					<h4 class="bold-title">Office address</h4>
+				</div>
+
+				<div class="col-md-10 col-lg-10 form-info">
+					<input type="text" name="u_offi_addr" class="type-input in-bg-none common-input" id="u_offi_addr" required>
+				</div>
+			</div>
+
+			<!-- police station and city, postal code -->
+			<div class="row align-items-center">
+				<div class="col-md-3 col-lg-2">
+					<h4 class="bold-title">Area / Police station</h4>
+				</div>
+
+				<div class="col-md-3 col-lg-3 form-info">
+					<input type="text" name="u_offi_sta" class="u_offi_sta common-input" id="u_offi_sta">
+				</div>
+
+				<div class="col-md-3 col-lg-2">
+					<h4 class="bold-title">District / city</h4>
+				</div>
+
+				<div class="col-md-3 col-lg-2 form-info">
+					<input type="text" name="u_offi_dis_city" class="u_offi_dis_city common-input" id="u_offi_dis__city" required>
+				</div>
+
+				<div class="col-md-12 col-lg-3 d-flex common-mb-block justify-content-between align-items-center form-info">
+					<label class="postal bold-title" for="postal-code">Postal Code </label><input type="number" name="uoffi__postal" class="u_postal common-input" id="offi_postal-code" required>
+				</div>
+			</div>
+
+			<!-- phone number -->
+			<div class="row align-items-center">
+				<div class="col-sm-4 col-md-4 col-lg-2">
+					<h4 class="bold-title">Personal Phone Number</h4>
+				</div>
+
+				<div class="col-sm-8 col-md-8 col-lg-4 form-info">
+					<input type="number" name="per_phone" class="common-input" id="">
+				</div>
+
+				<div class="col-sm-4 col-md-4 col-lg-2">
+					<h4 class="bold-title">Office Phone Number</h4>
+				</div>
+
+				<div class="col-sm-8 col-md-8 col-lg-4 form-info">
+					<input type="number" name="offi_phone" class="common-input" id="">
+				</div>
+			</div>
+
+			<!-- email -->
+			<div class="row align-items-center">
+				<div class="col-md-2 col-lg-2">
+					<h4 class="bold-title">E-mail</h4>
+				</div>
+
+				<div class="col-md-10 col-lg-10 form-info">
+					<input type="email" name="u_mail" class="u_mail common-input" id="" required>
+				</div>
+			</div>
+
+			<!-- Web address -->
+			<div class="row align-items-center">
+				<div class="col-md-2 col-lg-2">
+					<h4 class="bold-title">Web address</h4>
+				</div>
+
+				<div class="col-md-10 col-lg-8 form-info">
+					<input type="text" name="u_web" class="u_web in-bg-none type-input common-input" id="">
+				</div>
+
+				<div class="col-lg-2 form-info">
+					<button class="btn form-btn">Submit</button>
+				</div>
+			</div>
+
+
+		</form>
+	</div>
+	</div>
+
+
+	<footer class="bg-dark py-4 text-center">
+		<a href="http://ridwansuhel.com" target="_blank" class="text-white"><img src="image/ridwan.png" alt="ridwan suhel"> View Developer profile</a>
+	</footer>
+
+
+
+	
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		
+	</script>
+</body>
+</html>

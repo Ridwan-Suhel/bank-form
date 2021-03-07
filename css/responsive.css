@@ -1,0 +1,66 @@
+@media (max-width: 992px){
+	.pr-container{
+		width: 96%;
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+	.u_postal,
+	.in_stay_length
+	{
+		width: 80% !important;
+	}
+	.stay_length{
+		margin-left: 0 !important;
+	}
+	.gender{
+		justify-content: flex-start !important;
+	}
+	.gender h4{
+		margin-right: 10px;
+	}
+}
+@media (max-width: 767px){
+	.gender{
+		justify-content: flex-start !important;
+	}
+	.gender .form-info label:first-child{
+		margin: 0px 10px;
+	}
+}
+@media (max-width: 575px){
+	.block-check{
+		display: block !important;
+	}
+	.block-check label{
+		margin-right: 10px;
+	}
+	.common-mb-block{
+		display: block !important;
+	}
+	.common-mb-block input{
+		width: 100% !important;
+	}
+	.mb-top{
+		margin-top: 8px;
+	}
+}
+
+@media (max-width: 410px){
+	.material{
+		display: block !important;
+	}
+	.material label{
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+}
+@media (max-width: 350px){
+	.mb-chbox-wid{
+		width: 100% !important;
+	}
+}
+@media (max-width: 330px){
+	.mb-chbox-wid-for-master{
+		width: 100% !important;
+	}
+}
